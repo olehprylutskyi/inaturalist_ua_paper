@@ -1,5 +1,5 @@
 # State-of-the-art of iNaturalist as a source of data on Ukrainian Funga
-Repository contains data and script to reproduce all analysis and visualizations from the manuscript "State-of-the-art of iNaturalist as a source of data on Ukrainian Funga", submitted to the Plant Introduction journal.
+Repository contains data and script to reproduce all analysis and visualizations from the manuscript "State-of-the-art of iNaturalist as a source of data on Ukrainian Funga".
 
 ![iNaturalist fungal observations as of January 1st, 2024](https://github.com/olehprylutskyi/inaturalist_ua_paper/blob/main/figures/distribution_plot.png)
 
