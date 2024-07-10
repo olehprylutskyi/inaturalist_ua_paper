@@ -23,7 +23,7 @@ We downloaded an archive of all observations, available on iNaturalist as of 1 J
 The state boundary of Ukraine, as well as its administrative division, was acquired using the rgeoboundaries package v. 1.2.9 (Dicko 2023). Population density data for Ukraine were acquired from the Gridded Population of the World, Version 4 (GPWv4): Population Density, Revision 11 (https://sedac.ciesin.columbia.edu/data/set/gpw-v4-population-density-rev11). Ukrainian war events data were downloaded from ACLED's Ukraine Conflict Monitor (https://acleddata.com/ukraine-conflict-monitor/).
 
 # Code
-To reproduce analyses, download the repository into a local computer and run `inat_ua.Rmd` either as a single script or chunk by chunk. Knitted HTML version inat_ua.html can be viewed with any web-browser.
+To reproduce analyses, download the repository into a local computer and run `inat_ua.Rmd` either as a single script or chunk by chunk.
 
 # Requirements
 R version 4.3 or above, packages `sf`, `tidyverse`, `rgeoboundaries`, `iNEXT`, `knitr`, `rgbif`, `terra`, `ggspatial`, `gridExtra`.
