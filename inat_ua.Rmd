@@ -19,32 +19,6 @@ This study evaluates the utility of iNaturalist, a citizen science platform, for
 
 **Keywords:** iNaturalist, citizen science, fungi, Ukraine, spatial distribution, rare species monitoring.
 
-# Introduction
-Citizen science (hereafter CS) has become especially widespread in the last two decades, emerging as a valuable tool for collecting primary data on biodiversity, which complements data obtained from professional research (Feldman et al. 2021, Oliver et al. 2021; Vohland et al. 2021). The main advantage of CS data lies in its high dynamism, providing large amounts of species occurrences in almost real-time (Marcenò et al. 2021). Socially, CS platforms engage the public in data collection, allowing individuals to contribute to biodiversity information and scientific research (Peter et al. 2021).
-
-In mycology, CS also grows in scale and importance (Heilmann-Clausen et al. 2019). Since the mid-19th century, mycological societies have been the primary form of engagement, involving both mushroom enthusiasts and professional mycologists (Kałucka et al. 2023). Initially, these societies functioned as local clubs for exchanging knowledge in mushroom identification and discussing interesting observations (Webster 1997). Many such societies have since evolved into integrated mycological information systems. For instance, the Danish Mycological Society maintains the national Mycoportal (https://www.svampe.dk/), which includes a database of more than 1.1 million fungal records integrated with GBIF, the Atlas of Danish Fungi with over 850,000 verified images, and an AI tool for automated fungi identification (Heilmann-Clausen et al. 2021; Frøslev et al. 2024). 
-
-Another example of integrating the CS approach into modern mycology is the Fungal Diversity Survey (FunDiS, https://fundis.org/), a nonprofit organisation focusing on North American fungal biodiversity and conservation. FunDiS involves volunteers in activities ranging from field observations and specimen collection to fungal DNA extraction, data analysis, and phylogenetic reconstructions (Sheehan et al. 2021). Community scientists document fungi in the field with georeferenced color photos and post observations on public databases like iNaturalist (https://www.inaturalist.org/) and Mushroom Observer (https://mushroomobserver.org/). FunDiS also manages a curated iNaturalist project called the FunDiS Diversity Database (https://www.inaturalist.org/projects/fungal-diversity-database, Sheehan et al. 2021).
-
-Other notable mycological online databases and portals include the FungiMap (https://fungimap.org.au/) in Australia, the British Fungal Records Database (http://www.frdbi.info/), the Lost and Found Fungi (LAFF) project (https://fungi.myspecies.info/content/lost-and-foundfungi-project) in the United Kingdom, and the MIND.Funga App (https://mindfunga.ufsc.br/app/?lang=en) in Brazil.
-
-Modern fungal CS projects are tightly integrated with technology, online community science platforms, and social media. Many of them, such as FunDiS and FungiMap, use iNaturalist (https://www.inaturalist.org/) as a ready-to-use data storage and communication platform (Haelewaters et al. 2024).
-iNaturalist, a global CS platform by the California Academy of Sciences and the National Geographic Society, allows users to document biodiversity through observations submitted as images or sound recordings (Di Cecco et al. 2021). Community identification and a computer vision model suggest identifications, with observations achieving “research grade” status only if they have sufficient metadata and identifications confirmed by community (Haelewaters et al. 2024). These data are shared through the Global Biodiversity Information Facility (GBIF, https://www.gbif.org/), an open-access platform that aggregates species occurrence records from multiple sources. iNaturalist promotes community interaction and quality control, enabling projects to aggregate data by criteria such as location or taxon.
-
-As of 1 June 2024, iNaturalist had recorded 11,817,129 observations of 22,491 fungal species from 789,727 contributors. The platform's scientific contributions include reassessing fungal taxa (e.g., Mitchell et al. 2022), updating species distribution (e.g., de Groot et al. 2024), studying host specialisation of fungi (Gange et al. 2011; Heilmann-Clausen et al. 2016), providing data for local checklists (e.g., Shumskaya et al. 2023), and assessing fungal species’ conservation status (Mueller et al. 2022).
-
-In Ukraine, the CS aspect of mycology remains underdeveloped. There are no dedicated mycological societies, either in form of a learned society or open for amateurs. The international mycological CS project MushroomObserver reported only 19 observations from Ukraine (https://mushroomobserver.org/locations?country=Ukraine). The largest domestic CS project focused on photo-documented biodiversity, the Ukrainian Biodiversity Information Network (UkrBIN), included fungal data and reported 14,797 images of 892 fungal species as of 1 June 2024 (UkrBIN 2024).
-
-The most influential CS mycological initiative in Ukraine is the Facebook group “Fungi of Ukraine,” which had over 117,000 members as of 1 June 2024 (Rudenko 2024). However, the number of active participants is hard to estimate. “Fungi of Ukraine” allows any Facebook user to publish photos of fungi observed in nature, requiring metadata in the form of a textual description of the date and place or occurrence. The comment section facilitates discussions on identifications. Due to technical limitations of Facebook, interactions with the data are limited to viewing or simple text searches, making it impossible to download the data for further analysis or extract descriptive statistics. Although there have been attempts to scrape data from Facebook groups using manual re-writing or custom programming parsers (Marcenò et al. 2021), these methods have not yet been adopted for the “Fungi of Ukraine” group.
-iNaturalist reported 69,211 observations of 2,090 fungal species for Ukraine as of 1 June 2024. This indicates the platform’s potential as a data source for mycological research. However, to the best of our knowledge, its use remains limited (Chvikov and Prylutskyi 2020; Darmostuk et al. 2023). In contrast, the “Fungi of Ukraine” Facebook group has been used more frequently as a source of information in professional mycological research in Ukraine (Heluta 2017; Heluta and Zykova 2018; Shevchenko et al. 2021; Heluta et al. 2022; Martyniuk et al. 2024; Prydiuk & Safina 2024). Notably, iNaturalist is actively used in both zoological (Shparyk & Zamoroka 2019; Redinov et al. 2022; Balashov and Markova 2023a,b) and botanical research (Krasylenko et al. 2020; Davydov 2021; Olshanskyi et al. 2021; Shynder and Negrash 2021; Kuzemko 2023; Moysiyenko et al. 2023; Parakhnenko et al. 2023; Shynder et al. 2023) in Ukraine.
-
-Despite the potential of iNaturalist for mycological research, no attempts have been made to critically analyse the mycological data collected on the platform in Ukraine. Thus, this study aims to evaluate the extent to which iNaturalist can be used as a data source for mycological research in Ukraine. The main objectives are to explore iNaturalist’s data applicability for taxonomic diversity assessment and species distribution research, as well as for monitoring rare and invasive species. We also examine the social dynamics of fungal observation in the light of the COVID-19 pandemic and the full-scale invasion Ukraine has been facing.  Additionally, we discuss the possible reasons for the current limited use of this data and propose ways to address them.
-
-# Methods
-We hypothesise that CS data gathered by iNaturalist are supposed to have broad spatial distribution and high temporal coverage due to the large number of participants. At the same time, the identification accuracy and precision of iNaturalist data need to be examined.
-
-To address these questions, we downloaded and analysed taxonomic coverage and spatial distribution of iNaturalist fungal data from Ukraine, existing as of 1 June 2024. We also explored spatio-temporal dynamics of observation activity since the platform has been started to be used in Ukraine, with special emphasis on the last 5 years.
-
 ## Data sources
 We downloaded an archive of all observations, available on iNaturalist as of 1 June 2024, and meet the following criteria: (i) lie within the official state boundary of Ukraine, (ii) belong to the Fungi Kingdom, and (iii) verifiable (accompanied by photos). Total number of downloaded records was 69,211. Data dump, along with the R code for reproducing the analysis, were archived on GitHub repository (https://github.com/olehprylutskyi/inaturalist_ua_paper).
 
@@ -231,7 +205,6 @@ p_rarefaction +
 p_rarefaction
 ```
 
-The community identification approach on iNaturalist allows any user to suggest an identification (ID). For an observation to achieve Research Grade, it must have at least two IDs, with no less than 75% of them in agreement. Due to the lack of moderation, the credibility of identifications is directly related to the engagement of other users in the identification process. As shown in Figure 1b, the vast majority of Ukrainian fungal observations on iNaturalist lack proper community attention, with many observations reviewed by only one user or none besides the observer.
 
 ```{r, Identification agreements}
 # Identification agreements
@@ -258,8 +231,6 @@ fungi %>%
 
 id_agreements_p
 ```
-
-A direct comparison of species composition reported by iNaturalist and professional mycologists for gilled Agaricales revealed generally symmetrical patterns (Figure 1c). For fungal families with higher species diversity in Ukraine, based on professional data, iNaturalist also generally reports a higher number of species. For fungal families where species are primarily identified based on macroscopic features (e.g., Amanitaceae), iNaturalist shows species diversity nearly equivalent to professional data. However, for taxa where microscopy is crucial for identification (e.g., Bolbitiaceae, Psathyrellaceae), iNaturalist understandably lags behind professional data.
 
 ```{r, Gilled Agaricales, warning=FALSE}
 # iNaturalist
@@ -351,11 +322,6 @@ agaricales %>%
 
 agaricales_comparison_plot
 ```
-
-Similarly to gilled Agaricales, lichen families with high species diversity in Ukraine, based on professional data, are also represented on iNaturalist with a large number of species (e.g., Cladoniaceae, Lecanoraceae, Parmeliaceae, Ramalinaceae, Figure 1d).
-
-iNaturalist is nearly equivalent to professional data for taxa where species can be identified only based on macroscopic characteristics (e.g., Cladoniaceae, Parmeliaceae, Ramalinaceae). At the same time, iNaturalist lags behind professional data for lichen taxa identified by microscopic features (Byssolomataceae, Scoliciosporaceae).
-It should be noted that the lichen-forming fungi (lichens) included in Lecanorales vary greatly in their size and morphology. Among them are fruticose or foliose macrolichen species (e.g., Cladonia, Evernia, Lecanora, Toninia, Usnea) and small, inconspicuous crustose mіcrolichens (e.g., Micarea, Scoliciosporum), which are identified only by microscopic features and even invisible to the naked eye.
 
 ```{r, Lecanorales, message=FALSE, error=FALSE}
 library(rgbif)
@@ -461,16 +427,7 @@ rm(agaricales, agaricales_comparison_plot,
    id_agreements_p, lay, out, p_rarefaction)
 ```
 
-**Figure 1. Taxonomic credibility of iNaturalist fungal data from Ukraine.** (a) –  Accumulation of species with the accumulation of observations. The solid line highlights rarefied existing data, the dashed line is a projection for future observation growth, and the shaded area is a 95% credible interval. (b) – Identification activity. The Y axis displays the number of published observations, dissected by the number of identification disagreements (in colour). Fewer agreements/disagreements reflect the lower engagement of another user in identifying particular observations. (c, d) – Taxonomic coverage for the two groups of fungi – gilled representatives of Order Agaricales (c), the largest order of mushroom-forming Basidiomycota, and Order Lecanorales (d), one of the largest order of lichen-forming Ascomycota, respectively. Colours reflect the data source, where red is iNaturalist data, and green is the latest national checklists for respective groups; the bar length is proportional to the number of species reported for the territory of Ukraine. N indicates number of respective species.
-
 ## Spatial distribution
-Observations are moderately evenly distributed across Ukraine (Figure 2a). Hotspots exist around the two largest cities, Kyiv and Kharkiv (indicated on Figure 2b). The Crimean Mountains and the Ukrainian Carpathians, known for attracting tourists, also show higher than average observation density. However, based on empty grid cell fraction, nearly 51% of the territory of Ukraine still lacks fungal observations.
-
-The critical question is whether mycologists can rely on these data in species distribution analysis. To examine this, we analysed iNaturalist observations for two easily recognizable fungal species, *Hericium coralloides* (Scop.) Pers. and *Clathrus archeri* (Berk.) Dring, comparing them with records from scientific collections and academic publications.
-
-*H. coralloides* is a wood-inhabiting basidiomycete with large, coral-like fruit bodies. It is currently listed in the Red Data Book of Ukraine, the national list of protected species (Ministry of Environmental Protection and Natural Resources of Ukraine, 2021). The distribution of this species' observations on iNaturalist (Figure 2c) aligns with the records published by professional mycologists (Shevchenko et al. 2021; Heluta et al. 2022; GBIF.org 2024b).
-
-*C. archeri* is an alien species in Europe, introduced to western Ukraine from Central Europe in recent decades (Heluta and Zykova 2018). Its conspicuous fruit bodies make it easily recognizable in the field. iNaturalist data not only confirmed its known growing occupancy rate in western Ukraine, but revealed an easternmost occurrence near Kyiv (Figure 2d), 350 km from the nearest known one reported in literature (Heluta and Zykova 2018; GBIF.org 2024a).
 
 ```{r, Gridded observation density map}
 # With pre-defined grid
@@ -746,14 +703,7 @@ rm(clathrus_plot, hericium_plot, lay,
    ua_extent_pseudomercator, grid_cell_id, grid_size_km, grid_size_m)
 ```
 
-**Figure 2. Spatial distribution of iNaturalist fungal data from Ukraine.** (a) – Gridded density of iNaturalist fungal observations, published as of 1st June 2024 for the territory of Ukraine. A grid cell is 1000 km2; cells lacking observations are left colourless. (b) – Population density in Ukraine as of 2020 y., as a reference of potential observers’ distribution. The two major cities, as well as mountain ranges, are labelled. Data source: Gridded Population of the World, Version 4 (GPWv4): Population Density, Revision 11 (https://sedac.ciesin.columbia.edu/data/set/gpw-v4-population-density-rev11). (c, d) – Georeferenced records of protected species Hericium coralloides (c) and invasive species Clathrus archeri (d). The colour indicates a data source: red is for iNaturalist observations, and green is for records from any other sources (academic publications, collections, reports from social media). N indicates number of respective resords.
-
 ## Social dimension
-Although iNaturalist was launched in 2008, the platform allows users to publish observations made on any date, including historical collections. The first fungal observation for Ukraine on iNaturalist is dated 1927. However, most observations were made after 2008, with the most rapid growth occurring since 2020 (Figure 3a).
-
-Citizen science often reflects demographic and social processes (Albagli & Iwama, 2022). Ukraine, like the rest of the world, faced severe restrictions during the COVID-19 pandemic, which might have impacted observation activity and the spatial distribution of observations. Since 24 February 2022, Ukraine has been living under the conditions of a full-scale Russian invasion. Nearly 6.5 million people were forced to leave the country (UN High Commissioner for Refugees 2024), and 3.5 million become internally displaced persons (IDPs, International Organization for Migration 2024).
-
-Figures 3b and 3c show the dynamics of observation activity in the Ukrainian fungal segment of iNaturalist over the last five years. The pre-war years (2019-2021) were characterized by a moderate, even growth in the number of observations, with Kyiv Oblast (region), Kharkiv Oblast, and Crimea growing faster than others (Figure 3b). In 2022, the start of the war led to an abrupt decrease in observation activity in the Eastern and Southern regions, as well as in the North-Central Kyiv Oblast and Kyiv City (Figure 3c). These regions were the main theatres of war, resulting in both a decrease in the number of observers (due to the outflow of population) and reduced observation activity (due to the higher risks of any outdoor pursuit). Western and Central regions, which accepted the majority of IDPs, showed faster growth during this year. In 2023, after the successful liberation of most of the Kharkiv Oblast, observation activity in this region rose again (Figure 3c).
 
 ```{r, Observation accumulation}
 # Accumulation of observations by date
@@ -982,195 +932,5 @@ rm(accumulation_plot,
   p_dynamics_regions,
   p_acled
   )
-
 ```
 
-**Figure 3. The social facet of fungal part of iNaturalist activity in Ukraine.** (a) – Accumulation of fungal observations made on Ukraine's territory since the platform's launch. Colours highlight the two major social events for the period – the COVID-19 pandemic and the full-scale Russian invasion. (b) –  Accumulation of fungal observations for each administrative region of Ukraine separately for 2019-2023 years. The brighter colour indicates a higher total number of regional observations by the end of a respective year. (c) – Yearly changes in observers' activity. Regions where the total number of observations made in a given year was higher than that made in a preceding year are highlighted in red. Regions where the total number of observations made in a given year was lower than that made in a preceding year are highlighted in blue. Colour saturation reflects the magnitude of the difference. The white colour indicates no changes (zero point). (d) – All political violence events (combat, shelling, casualties) caused by the Russian-Ukrainian war since the beginning of the full-scale invasion, as a reference to the spatial impact of the war. Data source: ACLED's Ukraine Conflict Monitor (https://acleddata.com/ukraine-conflict-monitor/).
-
-# Discussion
-## Species Diversity and Taxonomic Coverage
-Low user engagement in the identification process remains a significant issue within the fungal segment of the Ukrainian iNaturalist community. Species identifications suggested by observers often remain the only identifications, reflecting in the fact that only 45% of observations (31,385) had achieved Research Grade as of 1 June 2024. Given in mind that the observations having only observer’s initial ID might be identified with in-built AI-base image recognition tool, those IDs should be considered as not credible until at least one independent ID will be suggested (Munzi, Isocrono, and Ravera 2023).
-
-Another limitation of the fungal segment of iNaturalist is that many fungal species require diagnostic features not visible in photos of fruit bodies. These features include the shape and size of microstructures, odour, and changes in flesh colour during oxidation or when exposed to specific chemicals. To facilitate accurate identification, such features should be recorded alongside photos. This requires additional effort from users and profound knowledge of the selected group of fungi. Even keeping in mind these shortcomings, iNaturalist proved itself to be a rich source of data on fungal species composition, at least for taxa identified primary by macroscopic features.
-
-## Spatial Distribution
-iNaturalist observations are known to be spatially biased (Di Cecco et al., 2021; Geurts et al., 2023; Hochmair et al., 2020), and Ukrainian fungal data generally follow this pattern. The concentration of observations near densely populated areas or popular recreational sites limits the use of iNaturalist as the sole data source on fungal diversity in conservation planning or biodiversity management.
-
-However, the data distribution does not always adhere to this bias. Sometimes, professional biologists use iNaturalist as a data repository in collaborative biodiversity survey projects (Kuzemko et al., 2021). In these instances, the spatial distribution of observations becomes more systematic, deviating from the usual trend.
-
-Despite that, the observed distribution of *Hericium coralloides* and *Clathrus archeri* suggests that iNaturalist data can be a useful source of information on the distribution of some rare or invasive fungal species, at least those with conspicuous, easily recognizable fruit bodies. For both case species, the number of observations published via iNaturalist is already higher than the overall number of records from other sources, indicating high potential of this CS tool for monitoring purposes.
-
-## Social Dimension
-Citizen science reflects social processes (Albagli & Iwama, 2022). In Ukraine, we observe the intersection of several of them. On a higher level, the overall trend of growth persists, despite dramatic events like the COVID-19 pandemic or the full-scale Russian invasion. On a finer scale, migrations drastically impact activity and the spatial distribution of observers. This study does not aim to trace individual observers’ activity. However, the data show that only 86 unique users (3.7% of observers) have made 100 or more fungal observations each, and these users have contributed 74.5% of the total observations. Thus, on a regional level, even a single active user moving to another region or country can make a significant difference.
-
-## Strengths and weaknesses
-iNaturalist has proven to be a powerful tool for accumulating data on fungi in Ukraine, with the vast amount of data already gathered. Among possible strengths of fungal part of Ukrainian segment of iNaturalist, we can outline the following:
-
-i) Egalitarianism: Anyone can contribute to biodiversity observations.
-ii) Scalability: The number of users and observations continue growing. For instance, for Hericium coralloides and Clathrus archeri, the total number of observations available through iNaturalist has already surpassed all available records from other sources.
-iii) High spatial and temporal coverage.
-
-These strengths give iNaturalist (and CS in general) an advantage over professional mycology. There are few mycologists in Ukraine, as well as globally (Hawksworth & Lücking, 2017). With limited human resources, professional mycologists must narrow their focus to specific taxa, conduct local expeditions, and work with collections. As Ukraine lacks mycological societies to curate regular broad-scale surveys, highly technological and distributed CS projects like iNaturalist can fill this gap.
-
-However, iNaturalist fungal data remain underutilized by Ukrainian mycologists. Based on personal observation and discussion with Ukrainian colleagues, we can outline three main limitations of the tool, leashing data use and reduce the overall interest of professional mycologists:
-
-i) Identification uncertainty, especially for taxa requiring microscopy.
-ii) Lack of voucher specimens, which are often essential for precise identification and integrating observations into professional taxonomic research.
-iii) Sampling bias, both taxonomic and spatial.
-
-Projects like FunDiS or FungiMap show that the first two limitations can be overcome by more active engagement of professional mycologists, who can provide advisory, guidance, and venues for collected specimens. Aside from improving overall identification quality through the revision of existing observations, broader participation of experts might motivate amateurs to upload more observations. Excellent example of this might be the “Fungi of Ukraine” Facebook group (FoU), which offers active interaction among amateurs and professionals through the comment section under each post. This interaction stimulates amateurs to collect specimens of interest and transfer it to the professionals, and even prepare collaborative scientific publications (Martyniuk et al., 2024; Prydiuk & Safina, 2024).
-
-Taxonomic bias is inevitable when considering such a diverse group as fungi. We cannot expect amateurs to pay equal attention to micromycetes as to fungal species with conspicuous fruit bodies. Thus, species lists derived solely from iNaturalist data cannot be considered representative in terms of fungal diversity. However, for groups identified primarily based on macroscopic features, iNaturalist can provide a useful addition to professional checklists.
-
-Despite the spatial bias demonstrated above, the current state of iNaturalist fungal data allows its use for monitoring rare or invasive species in Ukraine, as shown in the cases of Hericium coralloides and Clathrus archeri.
-
-These limitations likely contribute to the fact that iNaturalist data are used less in fungal research in Ukraine than data on vascular plants or animals. The key reason for this, in our opinion, is the lack of attention from professional mycologists, even comparing to those of botanists and zoologists. The only available comparative review on the Ukrainian segment of iNaturalist (Balashov, 2023) showed a clear dominance of zoologists and botanists among the most active observers and identifiers. A ‘vicious circle’ is forming: lack of professional engagement leads to low identification credibility, which devalues iNaturalist as a data source among professional mycologists. As we have shown, the potential of such data is high, and more active participation of professional mycologists can unlock it further.
-
-# Conclusions
-The iNaturalist platform has proven to be an invaluable tool for mycological research in Ukraine, documenting over 2,000 fungal species from more than 69,000 observations and continue growing. Despite some limitations, iNaturalist data have demonstrated significant potential for accurately documenting macroscopic fungi, supplementing professional mycological surveys, and contribute to biodiversity monitoring.
-
-However, the full potential of iNaturalist for mycological research remains untapped due to limited involvement from professional mycologists. If professionals invest time in training amateurs, organization of specimens exchange and community-building events, the number of qualified amateur mycologists will increase, improving both the quality and quantity of observations. We believe that professional mycologists' active participation can unlock iNaturalist's full potential, turning it into a powerful tool for mycological research and biodiversity conservation. 
-
-# Data Availability Statement
-Data and code available online on GitHub repository https://github.com/olehprylutskyi/inaturalist_ua_paper under the GPL-3.0 license.
-
-# Ethics and Consent Statement
-Not applicable.
-
-# Acknowledgments
-The authors are grateful to all contributors to iNaturalist, who both published and identified fungi observations from the territory of Ukraine. We sincerely thank the anonymous reviewers for their thoughtful review and valuable suggestions, which have significantly enhanced the quality of this manuscript.
-
-# Funding Information
-Not applicable.
-
-# Competing Interests
-The authors have no competing interests to declare.
-
-# Authors’ Contributions Statement
-Oleh Prylutskyi was responsible for the conceptualisation, investigation, visualisation, and writing the original version of the manuscript. Nadiia Kapets was contributing to prepare, process, and analyze data on lichen-forming fungi, as well as participated in overall revision of the manuscript.
-
-# References
-Akulov, O.Y., Usichenko, A.S., Leontyev, D.V., Yurchenko, E.O. and Prydiuk, M.P. (2003). Annotated checklist of aphyllophoroid fungi of Ukraine. Mycena (Special issue devoted to a monograph) 2(2), pp. 1–76.
-
-Albagli, S. and Iwama, A. Y. (2022). Citizen science and the right to research: Building local knowledge of climate change impacts. Humanities and Social Sciences Communications, 9(1), pp. 1–13. DOI: https://doi.org/10.1057/s41599-022-01040-8
-
-Balashov, I. (2023, September 17). 1,000,000 iNat observations from Ukraine: Summary and some stats. iNaturalist. https://www.inaturalist.org/journal/igor117/84530-1-000-000-inat-observations-from-ukraine-summary-and-some-stats
-
-Balashov, I. and Markova, A. (2023a). A further northward expansion of the invasive land snails Monacha cartusiana and M. fruticola (Stylommatophora: Hygromiidae) in Eastern Europe. Folia Malacologica 31(1), pp. 32–42. DOI: https://doi.org/10.12657/folmal.031.005.
-
-Balashov, I. and Markova, A. (2023b). Expansion of the invasive Balkan slug Tandonia kusceri (Stylommatophora: Milacidae): A new frontier in northern Ukraine and other new records. Folia Malacologica 31(1), pp. 24–31. DOI: https://doi.org/10.12657/folmal.031.004.
-
-Chamberlain S, Barve V, Mcglinn D, Oldoni D, Desmet P, Geffert L, Ram K 2024. rgbif: Interface to the Global Biodiversity Information Facility API. R package version 3.7.8. Available at: https://CRAN.R-project.org/package=rgbif.
-
-Chao, A., Gotelli, N. J., Hsieh, T. C., Sander, E. L., Ma, K. H., Colwell, R. K., & Ellison, A. M. (2014). Rarefaction and extrapolation with Hill numbers: A framework for sampling and estimation in species diversity studies. Ecological Monographs, 84(1), pp. 45–67. DOI: https://doi.org/10.1890/13-0133.1
-
-Chvikov, V. and Prylutskyi, О. (2020). Annotated checklist of Hygrophoraceae (Agaricales, Basidiomycota) of Ukraine. Biodiversity, Ecology and Experimental Biology 22(2), pp. 6–23. DOI: https://doi.org/10.34142/2708-5848.2020.22.2.01.
-
-Darmostuk, V.V., Khodosovtsev, O.Ye., Gromakova, A.B., Sira, O.Ye. and Bezsmertna, O.O. (2023). Notes to lichen-forming and lichenicolous fungi in Ukraine III. Chornomorski Botanical Journal 19(1), pp. 58–75. DOI: https://doi.org/10.32999/ksu1990-553X/2023-19-1-2.
-
-Davydov, D.A. (2021). An update to the species list of vascular plants of the spontaneous flora of the Left Bank Forest-Steppe of Ukraine. Ukrainian Botanical Journal 78(1), pp. 23–31. DOI: https://doi.org/10.15407/ukrbotj78.01.023
-
-de Groot, M. D., Christou, M., Pan, J. Y., Adriaens, T., Maes, D., Martinou, A. F., Roy, H. E., Verbeken, A., and Haelewaters, D. 2024. Beetlehangers.org: harmonizing host–parasite records of Harmonia axyridis and Hesperomyces harmoniae. Arthropod–Plant Interactions. DOI: https://doi.org/10.1007/s11829-023-10037-2
-
-Di Cecco, G. J., Barve, V., Belitz, M. W., Stucky, B. J., Guralnick, R. P., and Hurlbert, A. H. (2021). Observing the Observers: How Participants Contribute Data to iNaturalist and Implications for Biodiversity Science. BioScience, 71(11), pp. 1179–1188. DOI: https://doi.org/10.1093/biosci/biab093
-
-Dicko, A. (2023). rgeoboundaries: a client to geoBoundaries, a political administrative boundaries dataset. R package. Available at: https://github.com/wmgeolab/rgeoboundaries.
-
-Frøslev T G, Heilmann-Clausen J, Lange C, Læssøe T, Petersen J H, Søchting U, Jeppesen T S, Vesterholt J (2024). Danish Mycological Society, fungal records database. Danish Mycological Society. Occurrence dataset accessed via GBIF.org on 2024-05-30. DOI: https://doi.org/10.15468/zn159h
-
-Feldman, M. J., Imbeau, L., Marchand, P., Mazerolle, M. J., Darveau, M., and Fenton, N. J. (2021). Trends and gaps in the use of citizen science derived data as input for species distribution models: A quantitative review. PLOS ONE, 16(3), e0234587. DOI: https://doi.org/10.1371/journal.pone.0234587
-
-Gange, A.C., Gange, E.G., Mohammad, A.B., and Boddy, L. (2011). Host shifts in fungi caused by climate change? Fungal Ecology 4(2), pp. 184–190. DOI: https://doi.org/10.1016/j.funeco.2010.09.004.
-
-GBIF.org. (2024a). Clathrus archeri. GBIF Occurrence Download. Accessed on 8 June 2024. DOI: https://doi.org/10.15468/dl.2j3drd
-
-GBIF.org (2024b). Hericium coralloides. GBIF Occurrence Download. Accessed on 8 June 2024. DOI: https://doi.org/10.15468/dl.6wkpbb
-
-Geurts, E. M., Reynolds, J. D., and Starzomski, B. M. (2023). Turning observations into biodiversity data: Broadscale spatial biases in community science. Ecosphere, 14(6), e4582. DOI: https://doi.org/10.1002/ecs2.4582
-
-Haelewaters, D., Quandt, C. A., Bartrop, L., Cazabonne, J., Crockatt, M. E., Cunha, S. P., De Lange, R., Dominici, L., Douglas, B., Drechsler-Santos, E. R., Heilmann-Clausen, J., Irga, P. J., Jakob, S., Lofgren, L., Martin, T. E., Muchane, M. N., Stallman, J. K., Verbeken, A., Walker, A. K., and Gonçalves, S. C. (2024). The power of citizen science to advance fungal conservation. Conservation Letters, 17(3), e13013. DOI: https://doi.org/10.1111/conl.13013
-
-Hawksworth, D. L. and Lücking, R. (2017). Fungal Diversity Revisited: 2.2 to 3.8 Million Species. Microbiology Spectrum, 5(4), 10.1128/microbiolspec.funk-0052–2016. DOI: https://doi.org/10.1128/microbiolspec.funk-0052-2016
-
-Heilmann-Clausen, J., Bruun, H.H., Ejrnæs, R., Frøslev, T.G., Læssøe, T., and Petersen, J.H. (2019). How citizen science boosted primary knowledge on fungal biodiversity in Denmark. Biological Conservation 237, pp. 366–372. DOI: https://doi.org/10.1016/j.biocon.2019.07.008.
-
-Heilmann-Clausen J, Frøslev TG, Petersen JH, Læssøe T, Jeppesen TS (2021) Experiences from the Danish Fungal Atlas: Linking mushrooming, nature conservation and primary biodiversity research. Biodiversity Information Science and Standards 5: e75265. DOI: https://doi.org/10.3897/biss.5.75265
-
-Heilmann-Clausen, J., Maruyama, P.K., Bruun, H.H., Dimitrov, D., Læssøe, T., Frøslev, T.G. and Dalsgaard, B. (2016). Citizen science data reveal ecological, historical and evolutionary factors shaping interactions between woody hosts and wood-inhabiting fungi. New Phytologist 212(4), pp. 1072-1082. DOI: https://doi.org/10.1111/nph.14194.
-
-Heluta, V.P. and Zykova, M.O. (2018). Distribution of Clathrus archeri (Phallales, Basidiomycota), a fungus to be excluded from the Red Data Book of Ukraine, within the country. Ukrainian Botanical Journal 75(2), pp. 137–142. DOI: https://doi.org/10.15407/ukrbotj75.02.137
-
-Heluta, V.P., Zykova, M.O., Hayova, V.P., Prydiuk, M.P., and Shevchenko, M.V. (2022). An update to the species list of fungi in the Red Data Book of Ukraine. Ukrainian Botanical Journal 79(3), pp. 154–168. DOI: https://doi.org/10.15407/ukrbotj79.03.154.
-
-Hochmair, H.H., Scheffrahn, R.H., Basille, M. and Boone, M. (2020). Evaluating the data quality of iNaturalist termite records. PLOS ONE 15(5), p. e0226534. DOI: https://doi.org/10.1371/journal.pone.0226534.
-
-Hsieh, T. C., Ma, K. H., and Chao, A. (2016). iNEXT: An R package for rarefaction and extrapolation of species diversity (Hill numbers). Methods in Ecology and Evolution, 7(12), pp. 1451–1456. DOI: https://doi.org/10.1111/2041-210X.12613
-
-Kałucka, I., Zambonelli, A., Tosi, S., & Pawłowska, J. (2023). Mycological groups & societies in Europe: How can we cooperate? In: Abstract Book of XIX Congress of European Mycologists, Perugia, September 4th-8th, 2023, p. 56.
-
-Kondratyuk, S. Y., Popova, L. P., Khodosovtsev, O. Y., Lőkös, L., Fedorenko, N. M., and Kapets, N. V. (2021). The fourth checklist of Ukrainian lichen-forming and lichenicolous fungi with analysis of current additions. Acta Botanica Hungarica, 63(1–2), 97–163. DOI: https://doi.org/10.1556/034.63.2021.1-2.8
-
-Krasylenko, Y., Sosnovsky, Y., Atamas, N., Popov, G., Leonenko, V., Janošíková, K., Sytschak, N., Rydlo, K., and Sytnyk, D. (2020). The European mistletoe (Viscum album L.): distribution, host range, biotic interactions, and management worldwide with special emphasis on Ukraine. Botany 98(9), pp. 499–516. DOI: https://doi.org/10.1139/cjb-2020-0037.
-
-Kuzemko, A. (2023). Top 20 of the most dangerous alien plant species according to iNaturalist and GBIF electronic resources. Chornomorski Botanical Journal 19(3), pp. 297–305. DOI: https://doi.org/10.32999/ksu1990-553X/2023-19-3-3.
-
-Kuzemko, A., Kutsokon, I., and Vasyliuk, O. (eds.). (2021). Biodiversity of Rzhyshchiv city amalgamated territorial community (Vol. 1). Chernivtsi: Druk Art.
-
-Marcenò, C., Padullés Cubino, J., Chytrý, M., Genduso, E., Salemi, D., La Rosa, A., Gristina, A.S., Agrillo, E., Bonari, G., Giusso del Galdo, G., Ilardi, V., Landucci, F., and Guarino, R. (2021). Facebook groups as citizen science tools for plant species monitoring. Journal of Applied Ecology 58(10), pp. 2018–2028. DOI: https://doi.org/10.1111/1365-2664.13896.
-
-Martyniuk, P. Y., Prylutskyi, O. V., and Marques, G. (2024). The first record of Xerocomus silwoodensis (Boletaceae) in Ukraine. Ukrainian Botanical Journal, 81(2), pp. 155–161. DOI: https://doi.org/10.15407/ukrbotj81.02.155
-
-McMullin, R.T. and Allen, J.L. (2022). An assessment of data accuracy and best practice recommendations for observations of lichens and other taxonomically difficult taxa on iNaturalist. Botany 100(6), pp. 491–497. DOI: https://doi.org/10.1139/cjb-2021-0160.
-
-Ministry of Environmental Protection and Natural Resources of Ukraine. 2021. Appendix of the Order of the Ministry of Environmental Protection and Natural Resources of Ukraine № 111. Available at: https://zakon.rada.gov.ua/laws/show/z0260-21#Text.
-
-Mitchell, J. K., Quijada, L., Johnston, P. R., and Pfister, D. H. (2022). Species of the common discomycete genus Bisporella reassigned to at least four genera. Mycologia, 114(4), pp. 713–731. DOI: https://doi.org/10.1080/00275514.2022.2058853
-
-Moysiyenko, I.I., Shynder, O.I., Lenov, A.F., Chorna, H.A., Volutsa, O.D., Lavrinenko, K.V., Kolomiychuk, V.P., Shol, G.N., Shevera, M.V., Borovyk, D.V., Vynokurov, D.S., Zviahintseva, K.O., Kalashnik, K.S., Kazarinova, H.O., Levchuk, L.V., Skobel, N.O., Tarabun, M.O., Gerasimchuk, G.V., Lyubinska, L.G., Bezsmertna, O.O., Bondarenko, H.M., Mamchur, T.V., and Pashkevych, N.A. (2023). Notes to vascular plants in Ukraine I. Chornomorski Botanical Journal 19(1), pp. 76–93. DOI: https://doi.org/10.32999/ksu1990-553X/2023-19-1-3.Munzi, S., Isocrono, D. and 
-oRavera, S. 2023. Can we trust iNaturalist in lichenology? Evaluating the effectiveness and reliability of artificial intelligence in lichen identification. The Lichenologist 55(5), pp. 193–201. DOI: https://doi.org/10.1017/S0024282923000403.
-
-Oliver, R.Y., Meyer, C., Ranipeta, A., Winner, K. and Jetz, W. (2021). Global and national trends, gaps, and opportunities in documenting and monitoring species distributions. PLOS Biology 19(8), p. e3001336. DOI: https://doi.org/10.1371/journal.pbio.3001336.
-
-Olshanskyi, I., Zhygalova, S., Futorna, O. (2021). Geographical distribution of Sonchus L. species in Ukraine. Presented at the 1st International Electronic Conference on Biological Diversity, Ecology and Evolution, MDPI, online. DOI: https://doi.org/10.3390/BDEE2021-09429.
-
-Parakhnenko, V., Vitenko, V., Didenko, I., Koval, S. and Chernysh, V. (2023). Distribution of Ambrosia artemisiifolia L. in the Right-Bank Forest-Steppe of Ukraine and its adaptive potential. Trakya University Journal of Natural Sciences 24(2), pp. 31–40. DOI: https://doi.org/10.23902/trkjnat.1188477.
-
-Pebesma, E. (2018). Simple Features for R: standardized support for spatial vector data. The R Journal 10(1), p. 439. DOI: https://doi.org/10.32614/RJ-2018-009.
-
-Peter, M., Diekötter, T., Höffler, T. and Kremer, K. (2021). Biodiversity citizen science: Outcomes for the participating citizens. Mascarenhas, A. ed. People and Nature 3(2), pp. 294–311. DOI: https://doi.org/10.1002/pan3.10193.
-
-Prydiuk, M. P. and Safina, N. V. (2024). The first record of Arrhenia chlorocyanea (Hygrophoraceae) in Ukraine. Ukrainian Botanical Journal, 81(1), pp. 36–39. DOI: https://doi.org/10.15407/ukrbotj81.01.036
-
-Prylutskyi, O., Prydiuk, M., Malanyuk, V., and Yakunina, V. (2023). Reference-based checklist of gilled Agaricales (Basidiomycota, Fungi) from Ukraine. Biodiversity Data Journal, 11, p. e99101. DOI: https://doi.org/10.3897/BDJ.11.e99101
-
-R Core Team. (2023). R: A language and environment for statistical computing. Available at: https://www.R-project.org/.
-
-Redinov, K., Panchenko, P., and Formaniuk, O. (2022). Distribution limits of the European mole (Talpa europaea) in the south of Right-Bank Ukraine. Theriologia Ukrainica 2022(24), pp. 131–141. DOI: https://doi.org/10.15407/TU2412.
-
-Rudenko, Y. (2024). Fungi of Ukraine. https://www.facebook.com/groups/Hryby.Ukrayiny
-
-Sheehan, B., Stevenson, R., and Schwartz, J. (2021). Crowdsourcing Fungal Biodiversity: Approaches and standards used by an all-volunteer community science project. Biodiversity Information Science and Standards, 5, e74225. DOI: https://doi.org/10.3897/biss.5.74225
-
-Shevchenko, M.V., Heluta, V.P., Zykova, M.O. and Hayova, V.P. (2021). Current distribution data for the red-listed species of aphyllophoroid fungi in Ukraine. Ukrainian Botanical Journal 78(1), pp. 47–61. DOI: https://doi.org/10.15407/ukrbotj78.01.047.
-
-Shparyk, V. Yu. and Zamoroka, A. M. (2019). A brief overview of Cydalima perspectalis (Walker, 1859) (Lepidoptera: Crambidae) distribution in Ukraine: Evidence from professional and citizen science. Sci. Bull. Uzhhorod Univ. (Ser. Biol.), 46–47, pp. p3-41. DOI: https://doi.org/10.24144/1998-6475.2019.46-47.37-41
-
-Shumskaya, M., Filippova, N., Lorentzen, L., Blue, S., Andrew, C., and Lorusso, N. S. (2023). Citizen science helps in the study of fungal diversity in New Jersey. Scientific Data, 10(1), p. 10. DOI: https://doi.org/10.1038/s41597-022-01916-z
-
-Shynder, O. and Negrash, J. 2021. Checklist of the flora of the vicinity of Balakliya (Kharkiv region, Ukraine): native and alien taxa, distribution of rare plants, new findings. Plant Introduction, 89–90, pp. 13–71. DOI: https://doi.org/10.46341/PI2020043.
-
-Shynder, O.I., Orlov, O.O., Miskova, O.I., Chorna, H.A. and Shevera, M.V. (2023). Current distribution of Viola sororia (Violaceae) in Ukraine. Chornomorski Botanical Journal, 19(1), pp. 118–132. DOI: https://doi.org/10.32999/ksu1990-553X/2023-19-1-5.
-
-UkrBIN. (2024). UkrBIN: Ukrainian Biodiversity Information Network [public project & web application]. UkrBIN, Database on Biodiversity Information. https://www.ukrbin.com
-
-United Nations High Commissioner for Refugees. (2024). Ukraine Refugee Situation. Retrieved from https://data.unhcr.org/en/situations/ukraine
-
-International Organization for Migration. (2024). Ukraine Internal Displacement Report. Retrieved from https://displacement.iom.int/ukraine
-
-Vohland, K., Land-Zandstra, A., Ceccaroni, L., Lemmens, R., Perelló, J., Ponti, M., Samson, R., and Wagenknecht, K. (eds.). 2021. The Science of Citizen Science. Cham: Springer International Publishing. DOI: https://doi.org/10.1007/978-3-030-58278-4
-
-Webster J. (1997). The British Mycological Society, 1896–1996. Mycological Research, 101(10), pp. 1153–1178. DOI: https://doi.org/10.1017/S0953756297004553
-
-Wickham, H., Averick, M., Bryan, J., Chang, W., McGowan, L., François, R., Grolemund, G., Hayes, A., Henry, L., Hester, J., Kuhn, M., Pedersen, T., Miller, E., Bache, S., Müller, K., Ooms, J., Robinson, D., Seidel, D., Spinu, V., Takahashi, K., Vaughan, D., Wilke, C., Woo, K., and Yutani, H. (2019). Welcome to the Tidyverse. Journal of Open Source Software, 4(43), pp. 1686. DOI: https://doi.org/10.21105/joss.01686
-
-Wickham, H., Navarro, D. and Pedersen, T.L. 2016. ggplot2: elegant graphics for data analysis. New York: Springer. Available at: https://ggplot2-book.org/index.html [Accessed: 12 January 2024].
